@@ -22,7 +22,7 @@ function Thumbnail({ movie }: Props) {
         }`}
         alt=""
         className="rounded-sm object-cover md:rounded"
-        fill
+        layout = "fill"
       />
     </div>
   )
