@@ -21,6 +21,7 @@ function Thumbnail({ movie }: Props) {
           movie.backdrop_path || movie.poster_path
         }`}
         className="rounded-sm object-cover md:rounded"
+        alt=""
         fill
       />
     </div>
